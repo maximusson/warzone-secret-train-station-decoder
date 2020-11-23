@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.title {
+    padding: 1rem;
+    background: black;
+    color: white;
+    size: 1.5rem;
+    display:flex;
+    /* align-content: space-between; */
+    /* width: 100%; */
+}
+
+.code {
+    margin-left: auto;
+    size: 2rem !important;
+    color: #00ff22;
+}
+
+
+
+h2 {
+    margin: 0;
+}
+
+.canvas {
+
+    display: flex;
+}
+
+.row {
+    display: flex;
+  }
+
+
+  .column {
+    flex: 33%;
+    padding: 5px;
+  }
+
+.rowowner {
+    display:flex;
+    flex-direction: row;
+}
+
+.row2{
+    display:flex;
+}
+
+.column-add {
+    width: 50px;
+}
+
+.left {
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    flex: 30%;
+    padding: 5px;
+}
+
+.middle {
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    flex: 60%;
+    padding: 5px;
+}
+
+.right {
+    margin-right: 3rem;
+    flex: 0%;
+    padding: 5px;
+}
+
+.source {
+    cursor: pointer;
+}
+
+.add {
+    cursor: pointer;    
+}
+
+.plus1, 
+.plus2,
+.plus3,
+.plus3 {
+    cursor:pointer;
+}
+
+.output-add {
+    height: 50px;
+    width: 50px;
+
+}
+
+.active {
+    border: 5px solid blue;
+}
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
