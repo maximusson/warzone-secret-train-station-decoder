@@ -1,4 +1,4 @@
-console.log("halle");
+console.log("welcome");
 
 const reset = document.querySelector('.reset');
 const middle = document.querySelector('.middle');
@@ -26,44 +26,44 @@ sources.forEach(s => {
         const innerHTML = `
         <div class="row">
             <div class="column">
-                <img src="/images/out${outputImage}.png" class="output" id="output${counter}" style="width:70%">
+                <img src="images/out${outputImage}.png" class="output" id="output${counter}" style="width:70%">
             </div>
             <div class="column-add">
-                <img src="/images/add??.png" class="output-add" id="output-add-${counter}"  style="width:100%">
+                <img src="images/add??.png" class="output-add" id="output-add-${counter}"  style="width:100%">
             </div>
             <div class="column">
             <div class="row2">
                 <div class="column">
-                    <img src="/images/plus1.png" class="plus${counter}" data-counter="${counter}" data-value="1" style="width:100%">
+                    <img src="images/plus1.png" class="plus${counter}" data-counter="${counter}" data-value="1" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus2.png" class="plus${counter}" data-counter="${counter}" data-value="2" style="width:100%">
+                    <img src="images/plus2.png" class="plus${counter}" data-counter="${counter}" data-value="2" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus3.png" class="plus${counter}" data-counter="${counter}" data-value="3" style="width:100%">
+                    <img src="images/plus3.png" class="plus${counter}" data-counter="${counter}" data-value="3" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus4.png" class="plus${counter}" data-counter="${counter}" data-value="4" style="width:100%">
+                    <img src="images/plus4.png" class="plus${counter}" data-counter="${counter}" data-value="4" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus5.png" class="plus${counter}" data-counter="${counter}" data-value="5" style="width:100%">
+                    <img src="images/plus5.png" class="plus${counter}" data-counter="${counter}" data-value="5" style="width:100%">
                 </div>
             </div>
             <div class="row2">
                 <div class="column">
-                    <img src="/images/plus6.png" class="plus${counter}" data-counter="${counter}" data-value="6" style="width:100%">
+                    <img src="images/plus6.png" class="plus${counter}" data-counter="${counter}" data-value="6" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus7.png" class="plus${counter}" data-counter="${counter}" data-value="7" style="width:100%">
+                    <img src="images/plus7.png" class="plus${counter}" data-counter="${counter}" data-value="7" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus8.png" class="plus${counter}" data-counter="${counter}" data-value="8" style="width:100%">
+                    <img src="images/plus8.png" class="plus${counter}" data-counter="${counter}" data-value="8" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus9.png" class="plus${counter}" data-counter="${counter}" data-value="9" style="width:100%">
+                    <img src="images/plus9.png" class="plus${counter}" data-counter="${counter}" data-value="9" style="width:100%">
                 </div>
                 <div class="column">
-                    <img src="/images/plus10.png" class="plus${counter}" data-counter="${counter}" data-value="10" style="width:100%">
+                    <img src="images/plus10.png" class="plus${counter}" data-counter="${counter}" data-value="10" style="width:100%">
                 </div>
             </div>
             </div>
@@ -129,7 +129,7 @@ adds.forEach(a => {
         addImage = addImage.replace("add",'');
 
         const actImage = document.getElementById('output-add-' + counter);
-        actImage.src = `/images/add${addImage}.png`;
+        actImage.src = `images/add${addImage}.png`;
 
     })
 })
